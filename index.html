@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+
+<div class="layout">
+    <aside class="sidebar">
+        <div class="sidebar-inner">
+
+            <img src="images/profile.jpg" class="profile-pic" alt="Profile">
+
+            <h2 class="sidebar-name">Marithei H. Villanueva</h2>
+            <h4 class="sidebar-title">Software Engineer</h4>
+
+            <div class="sidebar-shape"></div>
+
+            <p class="sidebar-desc">
+                A passionate software engineer who enjoys designing clean, efficient systems and turning complex ideas into reliable, user-friendly applications, while constantly honing my skills.
+            </p>
+
+            <h5 class="sidebar-label">Location:</h5>
+
+            <p class="sidebar-info"> Imus City, Cavite, Philippines </p>
+
+            <h5 class="sidebar-label">Contact Details</h5>
+
+            <div class="sidebar-info">
+                <p><i class="bi bi-telephone-fill"></i> +63 906 542 0013</p>
+                <p><i class="bi bi-envelope-fill"></i> vmarithei@gmail.com</p>
+            </div>
+        </div>
+    </aside>
+
+    <main class="main-content">
+
+        <nav class="resume-nav">
+            <button class="nav-btn active" data-target="about">About</button>
+            <button class="nav-btn" data-target="skills">Skills</button>
+            <button class="nav-btn" data-target="projects">Projects</button>
+            <button class="nav-btn" data-target="education">Education</button>
+        </nav>
+
+        <!-- about -->
+        <section id="about" class="content-section active">
+
+            <h2 class="section-title">About Myself</h2>
+
+            <p class="section-text">
+              With a love for both technology and art, I approach software engineering as a craft, carefully designing layouts, color schemes, and interfaces that are as pleasing to the eye as they are functional. I enjoy turning complex problems into reliable, user-friendly applications, debugging and refining each detail along the way.
+            </p>
+
+            <div class="row mt-4 g-3 justify-content-center">
+                <div class="col-md-4">
+                    <div class="info-card">
+                        <h4>Strengths</h4>
+                        <ul>
+                            <li>Analytical thinker</li>
+                            <li>Adaptable</li>
+                            <li>Detail-oriented</li>
+                            <li>Creative</li>
+                            <li>Organized</li>                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="info-card">
+                        <h4>Weaknesses</h4>
+                        <ul>
+                            <li>Overly self-critical</li>
+                            <li>Perfectionism</li>
+                            <li>Public speaking</li>
+                            <li>Indecisive under ambiguity</li>
+                            <li>Hesitant to make suggestions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <p class="life-motto">“No matter what, make it happen.”</p>
+        </section>
+
+        <!-- technical skills -->
+        <section id="skills" class="content-section">
+
+            <h2 class="section-title">Technical Skills</h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-6">
+                    <div class="skill-card">
+                        <h4>Languages</h4>
+                        <div class="skill-group">
+                            <span>JavaScript</span>
+                            <div class="skill-bar"><div style="width:80%"></div></div>
+                        </div>
+                        <div class="skill-group">
+                            <span>Python</span>
+                            <div class="skill-bar"><div style="width:50%"></div></div>
+                        </div>
+                        <div class="skill-group">
+                            <span>PHP</span>
+                            <div class="skill-bar"><div style="width:80%"></div></div>
+                        </div>
+                        <div class="skill-group">
+                            <span>HTML/CSS</span>
+                            <div class="skill-bar"><div style="width:95%"></div></div>
+                        </div>
+                        <div class="skill-group">
+                            <span>SQL</span>
+                            <div class="skill-bar"><div style="width:80%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="skill-card">
+                        <h4>Frameworks & Libraries</h4>
+                        <div class="skill-group">
+                            <span>AlpineJS</span>
+                            <div class="skill-bar"><div style="width:50%"></div></div>
+                        </div>
+                        <div class="skill-group">
+                            <span>CoreJS</span>
+                            <div class="skill-bar"><div style="width:70%"></div></div>
+                        </div>
+                        <div class="skill-group">
+                            <span>Bootstrap</span>
+                            <div class="skill-bar"><div style="width:90%"></div></div>
+                        </div>
+                        <div class="skill-group">
+                            <span>Tailwind</span>
+                            <div class="skill-bar"><div style="width:90%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="skill-card">
+                        <h4>Tools</h4>
+                        <div class="skill-group">
+                            <span>Git/Github</span>
+                            <div class="skill-bar"><div style="width:95%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="skill-card">
+                        <h4>Databases</h4>
+                        <div class="skill-group">
+                            <span>MySQL</span>
+                            <div class="skill-bar"><div style="width:80%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- projects -->
+        <section id="projects" class="content-section">
+
+            <h2 class="section-title">Projects</h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-6">
+                    <div class="project-card">
+                        <a href="images/project2.jpg" class="glightbox">
+                            <img src="images/project2.jpg" class="project-img">
+                        </a>
+                        <h4>Order Kiosk</h4>
+                        <p>Customers can place an order and view receipt after checkout.</p>
+                        <span class="proj-tech">HTML, CSS, JS, Tailwind</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="project-card">
+                        <a href="images/project7.jpg" class="glightbox">
+                            <img src="images/project7.jpg" class="project-img">
+                        </a>
+                        <h4>Order Management System</h4>
+                        <p>POS-style interface that lets cashiers manage orders.</p>
+                        <span class="proj-tech">HTML, CSS, JS, PHP, SQL, Bootstrap</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="project-card">
+                        <a href="images/project3.jpg" class="glightbox">
+                            <img src="images/project3.jpg" class="project-img">
+                        </a>
+                        <h4>GDocs Clone</h4>
+                        <p>Inspired by Google Docs with auto-save, sharing, and activity logs.</p>
+                        <span class="proj-tech">HTML, CSS, JS, PHP, SQL, Bootstrap</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="project-card">
+                        <a href="images/project6.jpg" class="glightbox">
+                          <img src="images/project6.jpg" class="project-img">
+                        </a>
+                        <h4>Fiverr Clone</h4>
+                        <p>Freelance platform where users can offer or request services.</p>
+                        <span class="proj-tech">HTML, CSS, JS, PHP, SQL, Bootstrap</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="project-card">
+                        <a href="images/project5.jpg" class="glightbox">
+                            <img src="images/project5.jpg" class="project-img">
+                        </a>
+                        <h4>School Publication</h4>
+                        <p>Platform for posting articles, news, and announcements.</p>
+                        <span class="proj-tech">HTML, CSS, JS, PHP, SQL, Bootstrap</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="project-card">
+                        <a href="images/project1.jpg" class="glightbox">
+                            <img src="images/project1.jpg" class="project-img">
+                        </a>
+                        <h4>Tourism Website</h4>
+                        <p>Showcase the beauty of Kazakhstan to attract more tourists.</p>
+                        <span class="proj-tech">HTML, CSS, Tailwind</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="project-card">
+                        <a href="images/project4.jpg" class="glightbox">
+                          <img src="images/project4.jpg" class="project-img">
+                        </a>
+                        <h4>Attendance System</h4>
+                        <p>Records, stores, and filters student attendances efficiently.</p>
+                        <span class="proj-tech">HTML, CSS, JS, PHP, SQL</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="content-section">
+
+            <h2 class="section-title">Education & Certifications</h2>
+
+            <!-- College -->
+            <div class="edu-card edu-center">
+                <img src="images/EAC.png" class="edu-img">
+                <div class="edu-info">
+                    <h4>Bachelor of Science in Computer Science</h4>
+                    <p>Emilio Aguinaldo College – Cavite</p>
+                    <small>2022 – 2026</small>
+                </div>
+            </div>
+
+            <div class="cert-list">
+                <div class="cert-item card-vertical">
+                    <a href="images/cs2.png" class="glightbox">
+                        <img src="images/cs2.png" class="cert-img2">
+                    </a>
+                    <h5>PCS Techtalks Certificate</h5>
+                    <small>Issued 2025</small>
+                </div>
+                <div class="cert-item card-vertical">
+                    <a href="images/cs3.png" class="glightbox">
+                        <img src="images/cs3.png" class="cert-img2">
+                    </a>
+                    <h5>Seminar Certificate</h5>
+                    <small>Issued 2024</small>
+                </div>
+                <div class="cert-item card-vertical">
+                    <a href="images/cs4.png" class="glightbox">
+                        <img src="images/cs4.png" class="cert-img2">
+                    </a>
+                    <h5>Seminar Certificate</h5>
+                    <small>Issued 2024</small>
+                </div>
+                <div class="cert-item card-vertical">
+                    <a href="images/cs5.jpg" class="glightbox">
+                        <img src="images/cs5.jpg" class="cert-img">
+                    </a>
+                    <h5>Thesis Paper</h5>
+                    <small>2026</small>
+                </div>
+                <div class="cert-item card-vertical">
+                    <a href="images/cs1.jpg" class="glightbox">
+                        <img src="images/cs1.jpg" class="cert-img">
+                    </a>
+                    <h5>OJT Completion</h5>
+                    <small>Issued 2025</small>
+                </div>
+            </div>
+
+            <hr class="cert-divider">
+
+            <!-- SHS -->
+            <div class="edu-card edu-center mt-4">
+                <img src="images/EAC.png" class="edu-img">
+                <div class="edu-info">
+                    <h4>Science, Technology, Engineering, and Mathematics</h4>
+                    <p>Emilio Aguinaldo College – Cavite</p>
+                    <small>2020 – 2022</small>
+                </div>
+            </div>
+
+            <div class="cert-list">
+                <div class="cert-item card-vertical">
+                    <a href="images/shs2.jpg" class="glightbox">
+                        <img src="images/shs2.jpg" class="cert-img2">
+                    </a>
+                    <h5>Perfect Attendance</h5>
+                    <small>Issued 2022</small>
+                </div>
+                <div class="cert-item card-vertical">
+                    <a href="images/shs3.jpg" class="glightbox">
+                        <img src="images/shs3.jpg" class="cert-img">
+                    </a>
+                    <h5>Research Paper</h5>
+                    <small>2022</small>
+                </div>
+                <div class="cert-item card-vertical">
+                    <a href="images/shs1.jpg" class="glightbox">
+                        <img src="images/shs1.jpg" class="cert-img2">
+                    </a>
+                    <h5>With High Honors</h5>
+                    <small>Issued 2022</small>
+                </div>
+            </div>
+
+            <hr class="cert-divider">
+
+            <!-- JHS -->
+            <div class="edu-card edu-center mt-4">
+                <img src="images/FLA.png" class="edu-img">
+                <div class="edu-info">
+                    <h4>Junior High School</h4>
+                    <p>Fiat Lux Academe – Dasmariñas</p>
+                    <small>2016 – 2020</small>
+                </div>
+            </div>
+
+            <div class="cert-list">
+                <div class="cert-item card-vertical">
+                    <a href="images/fla2.jpg" class="glightbox">
+                        <img src="images/fla2.jpg" class="cert-img2">
+                    </a>
+                    <h5>Fiathletics Participation</h5>
+                    <small>Issued 2020</small>
+                </div>
+                <div class="cert-item card-vertical">
+                    <a href="images/fla1.jpg" class="glightbox">
+                        <img src="images/fla1.jpg" class="cert-img2">
+                    </a>
+                    <h5>Certificate of Completion</h5>
+                    <small>Issued 2020</small>
+                </div>
+            </div>
+
+            <hr class="cert-divider">
+
+            <!-- Elementary -->
+            <div class="edu-card edu-center mt-4 mb-4">
+                <img src="images/DCWS.png" class="edu-img">
+                <div class="edu-info">
+                    <h4>Elementary School</h4>
+                    <p>D'Cup of Wisdom Christian School</p>
+                    <small>2010 – 2016</small>
+                </div>
+            </div>
+
+            <div class="cert-list">
+                <div class="cert-item card-vertical">
+                    <a href="images/dcws1.jpg" class="glightbox">
+                        <img src="images/dcws1.jpg" class="cert-img">
+                    </a>
+                    <h5>Certificate of Completion</h5>
+                    <small>Issued 2016</small>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+
+<script>
+    const navBtns = document.querySelectorAll('.nav-btn');
+    const sections = document.querySelectorAll('.content-section');
+
+    navBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+
+            navBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            sections.forEach(sec => sec.classList.remove('active'));
+            document.getElementById(btn.dataset.target).classList.add('active');
+        });
+    });
+
+    const lightbox = GLightbox({
+        selector: '.glightbox'
+    });
+</script>
+</body>
+</html>
